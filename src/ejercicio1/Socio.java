@@ -33,14 +33,6 @@ public class Socio implements Comparable {
 	}
 
 	/**
-	 * Método toString
-	 */
-	@Override
-	public String toString() {
-		return id + " " + nombre + " " + edad;
-	}
-
-	/**
 	 * Método compareTo para comparar dos objetos
 	 * 
 	 * @param obj
@@ -56,5 +48,15 @@ public class Socio implements Comparable {
 		}
 		return result;
 	}
+	
+	/**
+	 * Método toString
+	 */
+	@Override
+	public String toString() {
+		return id + " " + nombre + " " + edad;
+	}
+
+
 
 }
